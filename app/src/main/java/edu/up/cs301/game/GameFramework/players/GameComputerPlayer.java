@@ -1,5 +1,8 @@
 package edu.up.cs301.game.GameFramework.players;
 
+import android.os.Handler;
+import android.os.Looper;
+
 import edu.up.cs301.game.GameFramework.Game;
 import edu.up.cs301.game.GameFramework.GameMainActivity;
 import edu.up.cs301.game.GameFramework.actionMessage.GameOverAckAction;
@@ -14,9 +17,6 @@ import edu.up.cs301.game.GameFramework.utilities.GameTimer;
 import edu.up.cs301.game.GameFramework.utilities.Logger;
 import edu.up.cs301.game.GameFramework.utilities.MessageBox;
 import edu.up.cs301.game.GameFramework.utilities.Tickable;
-
-import android.os.Handler;
-import android.os.Looper;
 
 /**
  * An abstract computerized game player player. This is an abstract class, that

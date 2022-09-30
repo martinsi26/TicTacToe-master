@@ -1,5 +1,9 @@
 package edu.up.cs301.game.GameFramework.utilities;
 
+import android.os.Handler;
+import android.os.Looper;
+import android.util.Pair;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
@@ -11,9 +15,6 @@ import java.net.Socket;
 import java.util.Hashtable;
 import java.util.LinkedList;
 import java.util.Queue;
-import android.os.Handler;
-import android.os.Looper;
-import android.util.Pair;
 
 /**
  * A class that supports two-way passing of objects across the network,

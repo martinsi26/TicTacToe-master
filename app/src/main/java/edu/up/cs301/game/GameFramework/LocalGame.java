@@ -1,5 +1,9 @@
 package edu.up.cs301.game.GameFramework;
 
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+
 import edu.up.cs301.game.GameFramework.actionMessage.EndTurnAction;
 import edu.up.cs301.game.GameFramework.actionMessage.GameAction;
 import edu.up.cs301.game.GameFramework.actionMessage.GameOverAckAction;
@@ -14,12 +18,8 @@ import edu.up.cs301.game.GameFramework.infoMessage.NotYourTurnInfo;
 import edu.up.cs301.game.GameFramework.infoMessage.StartGameInfo;
 import edu.up.cs301.game.GameFramework.players.GamePlayer;
 import edu.up.cs301.game.GameFramework.utilities.GameTimer;
-import edu.up.cs301.game.GameFramework.utilities.Tickable;
 import edu.up.cs301.game.GameFramework.utilities.Logger;
-
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
+import edu.up.cs301.game.GameFramework.utilities.Tickable;
 
 /**
  * A class that knows how to play the game. The data in this class represent the
